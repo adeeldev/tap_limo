@@ -1,0 +1,125 @@
+# Change Log
+All notable changes to this project will be documented in this file.
+This project adheres to [Semantic Versioning](http://semver.org/).
+
+## [1.3.0] - 2016-06-11
+Updates:
+- Core Feature Pack plug-in updated
+
+Improvements:
+- Theme options now allow to select post types that should support page builder
+- Template import tool now imports images individually to reduce resource use
+
+Bugs fixed:
+- Various small compatibility fixes
+- Category banners using page builder with more than one column were not correctly rendered
+
+## [1.2.3] - 2016-05-06
+Bugs fixed:
+- Icon list items showed default list style symbol behind selected icon
+
+## [1.2.2] - 2016-04-03
+Bugs fixed:
+- Fixed tablet/mobile layout width issue in page builder.
+
+## [1.2.1] - 2016-03-30
+Bugs fixed:
+- Spacing issues introduced with version 1.2.0.
+
+## [1.2.0] - 2016-03-29
+New Features:
+- Added main menu alignment options
+
+Improvements:
+- Improved how images are added in widgets, and added preview
+- oEmbed behaviour for grid views revised
+- Added option to open link in new window to OtS call to action block widget
+- Twitter share buttons in blog posts now include post title
+- WooCommerce templates and CSS updated
+- Adjustments for responsive image feature
+- Added option to apply font styles to default button style
+
+Bugs fixed:
+- Unordered and ordered lists lacked styling in widget content
+- Breadcrumb order differed from selection in theme options panel
+- Hand-crafted excerpts were not rendered
+- Gravity Forms widget rendered title, even if hidden in options
+- Removed page builder plug-in error messages in debug mode
+- Social sharing icons container was displayed even if no social icons or tags were enabled
+- blog-layout-* classes were rendered even when not required
+- Fixed broken image for loading indicator in stylesheet
+- OtS Icon Block widget did not escape description as expected
+
+## [1.1.1] - 2016-01-01
+Bugs fixed:
+- Addressed a compatibility issue concerning SO PageBuilder Widgets Bundle plug-in
+
+Improvements:
+- Added 2 new starter template packages to the theme
+
+## [1.1.0] - 2015-12-28
+Bugs fixed:
+- WP 4.4: Comment fields not in correct order
+- Blog posts using the page builder rendered wrong content and did not use Page Buidler output
+- Hide on desktop did not work
+
+New Features:
+- Added smooth scrolling and anchor link support
+- Button styles are imported with landing page packages
+
+## [1.0.9] - 2015-12-07
+Bugs Fixed:
+- Fixed: One-column rows lacked padding/margins applied to multi-column rows
+- Fixed: Password protection did not work for pages built with page builder
+- Fixed: Buttons were rendered as plain text if no URL present
+
+New Feature:
+- Added option to re-import default theme options
+
+Improvements:
+- Added explanatory text to footer and sub footer, header and sub header options
+- Added explanatory hint to header text/link colour options pointing to banner settings for transparent headers
+- Added limited HTML support to all widgets that output user-entered text
+
+## [1.0.8] - 2015-11-18
+Bugs Fixed:
+- Some page builder widgets did not save all settings when used in sidebar
+
+New Features:
+- Added quick edit toolbar to access banner and profile editors from the page editor
+
+## [1.0.7] - 2015-11-16
+Bugs Fixed:
+- Added additional repository checks to prevent uncaught errors in installation routine.
+
+New Features:
+- Added dedicated OtS Gravity Forms widget for better integration of Gravity Forms.
+
+Improvements:
+New language files, additional documentation (forms, troubleshooting guide).
+
+## [1.0.6] - 2015-11-12
+Bugs Fixed:
+- Class names for widget containers were are translated unintentionally
+- Divider in header was displayed even if none of the left-hand side items are visible
+
+## [1.0.5] - 2015-11-11
+Bugs Fixed:
+- Theme Options required edit_themes permission, lowered to edit_theme_options
+- "Undefined Error" did not provide exact error message from web server
+- "Write comment" links were available even if the comment feature was off
+- Default profile (if none installed or none active) displayed wrong title
+- Bio Block widget did not display all social icons when website etc. were not entered
+
+Improvements:
+- Improved labels for 'make default' on imports page and added tooltips
+- Added new inline help tooltips to profile options in admin panel
+
+New Features:
+- Added option to hide admin toolbar items via filter/constant
+- Added option to hide support options as a white-label option for developers
+- Added custom language switcher for WPML
+
+## [1.0.0] - 2015-09-06
+### Initial Release
+- First public release.

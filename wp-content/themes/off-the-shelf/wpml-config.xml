@@ -1,0 +1,35 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="translate">panels_data</custom-field>
+        <custom-field action="copy">sr_ots_custom_banner</custom-field>
+        <custom-field action="copy">sr_ots_hide_footer_widgets</custom-field>
+        <custom-field action="copy">sr_ots_hide_title</custom-field>
+        <custom-field action="copy">sr_ots_landing_page</custom-field>
+        <custom-field action="copy">sr_ots_page_title_position</custom-field>
+        <custom-field action="copy">sr_ots_hide_footer_widgets</custom-field>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">testimonial</custom-type>
+        <custom-type translate="1">banner</custom-type>
+        <custom-type translate="1">modal</custom-type>
+        <custom-type translate="0">profile</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">testimonial_category</taxonomy>
+    </taxonomies>
+    <admin-texts>
+        <key name="my_plugins_options">
+            <key name="option_name_1" />
+            <key name="option_name_2" />
+            <key name="options_group_1">
+                <key name="sub_option_name_11" />
+                <key name="sub_option_name_12" />
+            </key>
+            <key name="options_group_2">
+                <key name="sub_option_name_21" />
+                <key name="sub_option_name_22" />
+            </key>
+        </key>
+        <key name="simple_string_option" />
+    </admin-texts>
+</wpml-config>
