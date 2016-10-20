@@ -23,10 +23,10 @@
 define('DB_NAME', 'tapplimo_wp724');
 
 /** MySQL database username */
-define('DB_USER', 'tapplimo_wp724');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', '9[S)Up6Z3x');
+define('DB_PASSWORD', 'tap@live');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
